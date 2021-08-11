@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*, *::before , *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1550px;
+    background-color:rgb(10, 12, 27); 
+    font-family: 'Inter',san-serif;
+}
+
+span {
+    color:#9A62C2;
+}
+
+.container{
+    width: 950px;
+    height: 400px;
+    display: flex;
+    background-color: #1C1938;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container .content .heading{
+    display: flex;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 60px;
+}
+
+.container .content .info{
+    color:white;
+    position: relative;
+    top:80px;
+    left: 60px;
+    opacity: 40%;
+    line-height: 20px;
+}
+
+.container .content .popular{
+    color:white;
+    display: inline-block;
+}
+
+.popular h2{
+    margin-left: 35px;
+    position: relative;
+    left: 25px;
+    top:157px;
+}
+
+.popular p{
+    font-size: 10px;
+    margin-left: 30px;
+    position: relative;
+    left: 30px;
+    top: 160px;
+    opacity: 50%;
+}
+
+.container .image{
+    display: flex;
+    position: relative;
+    right: -155px; 
+}
+
+.container .image .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #4e007e;
+    filter: opacity(50%);
+}
+
+@media screen and (max-width:950px) and (min-width:800px){
+
+    .container{
+        width: 800px;
+        height: 350px;
+        font-size: small;
+        overflow: hidden;
+    }
+
+    .content{
+        margin: -12px;
+    }
+
+    .popular{
+        margin-top:-10px;
+    }
+
+    .image{
+        left: 120px;
+    }
+}
+
+
+@media screen and (max-width:800px) and (min-width:700px){
+
+    .container{
+        width: 670px;
+        height: 330px;
+        font-size: 12px;
+    
+    }
+    
+    .popular{
+        margin-top: -17px;
+    }
+
+    .content{
+        margin: -5px;
+        margin-left: -17px;
+    }
+
+    .image{
+        position: relative;
+        left: 90px;
+        width: 330px;
+    }
+    .image img{
+        width: 330px;
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (max-width:700px) and (min-width:600px){
+    
+    .container{
+        width: 600px;
+        height: 280px;
+        font-size: 11px;
+    }
+    
+    .content{
+        margin: -1.2rem;
+    }
+
+    .popular{
+        margin-top: -3rem;
+    }
+    .image{
+        position: relative;
+        left: 90px;
+        width: 330px;
+    }
+    .image img{
+        width: 330px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:300px){
+
+    .container{
+        height: 650px;
+        width: 365px;
+        font-size: 12px;
+    }
+    .content{
+        position: absolute;
+        top: 22rem;
+        text-align: center;
+        margin-left: -10px;
+    }
+
+    .image{
+       position: relative;
+       left: 1px;
+       height: 300px;
+    }
+
+    .image img{
+        object-fit:contain;
+    }
+}
