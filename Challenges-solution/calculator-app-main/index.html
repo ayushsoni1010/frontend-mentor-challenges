@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | Calculator app</title>
 
+  <link rel="stylesheet" href="./style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,12 +17,82 @@
   </style>
 </head>
 <body>
+  
+  <div class="container">
 
+    <div class="calculator">
+
+      <div class="outer-content">
+
+        <h2>calc</h2>
+        
+        <div class="theme">
+          <h6>THEME</h6>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <input type="text" id="themeInput" name="themeInput">
+        </div>
+
+      </div>
+
+      <input type="text" id="screen" name="screen" >
+
+      <div class="main">
+
+        <table>
+
+          <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            <td class="delete"><button>DEL</button></td>
+          </tr>
+
+          <tr>
+            <td><button>4</button></td>
+            <td><button>5</button></td>
+            <td><button>6</button></td>
+            <td class="mathButton"><button>+</button></td>
+          </tr>
+
+          <tr>
+            <td><button>1</button></td>
+            <td><button>2</button></td>
+            <td><button>3</button></td>
+            <td class="mathButton"><button>-</button></td>
+          </tr>
+
+          <tr>
+            <td><button>.</button></td>
+            <td><button>0</button></td>
+            <td class="mathButton"><button>/</button></td>
+            <td class="mathButton"><button>x</button></td>
+          </tr>
+
+          <table class="anotherTable">
+
+            <tr>
+              <td class="resetScreen"><button>RESET</button></td>
+              <td class="equalButton"><button>=</button></td>
+            </tr>
+    
+          </table>
+          
+        </table>
+
+      </div>
+
+    </div>
+
+  </div>
 
   
-  <div class="attribution">
+
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="#">Ayush Soni</a>.
+  </div> -->
+
 </body>
 </html>
