@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+
+* , *::before , *::after{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1550px;
+    outline: none;
+    background-color: hsl(222, 26%, 31%);
+    font-family: 'Spartan';
+}
+
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .calculator{
+    margin-top: 7%;
+}
+
+.outer-content{
+    color: white;
+    display: flex;
+    position: relative;
+    top: -20px;
+}
+
+.outer-content .theme{
+    display: flex;
+    position: relative;
+    left: 15rem;
+}
+
+.theme h6{
+    font-size: 8px;
+    opacity: 80%;
+    margin-top: 15px;
+
+}
+.theme p{
+    font-size: 8px;
+    opacity: 80%;    
+    margin-left: 11px;
+    position:relative;
+    right: -18px;
+}
+
+#themeInput{
+    display: flex;
+    padding: 0;
+    height: 15px;
+    width: 45px;
+    position: relative;    
+    right: 22px;
+    top:12px;
+    background-color:hsl(223, 31%, 20%); 
+}
+
+.main{
+    padding: 10px 10px;
+}
+
+table{
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 7px;
+    padding: 15px 15px;
+    margin-left: -10px;
+    margin-top: 7px;
+}
+
+td{
+    padding: 7px 7px;
+    margin: 7px 7px;
+}
+
+input{
+    width: 24.6rem;
+    height: 5rem;
+    background-color: hsl(224, 36%, 15%);
+    outline: none;
+    font-size: 32px;
+    padding: 15px;
+    border: none;
+    color: white;
+    text-align: right;
+    border-radius: 7px;
+    font-weight: 700;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+
+button{
+    width: 75px;
+    height: 45px;
+    border-radius: 7px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: hsl(0, 0, 100%);
+    border-bottom: 3px solid hsl(0, 0%, 49%);
+    color: hsl(221, 14%, 31%);
+}
+
+.resetScreen button{
+    width: 155px;
+    border-radius: 5px;
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    font-size: 15px;
+    border-bottom: 3px solid hsl(224, 28%, 35%);
+    
+}
+.equalButton button{
+    font-size: 15px;
+    width: 155px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(209, 63, 48);
+    border-bottom: 3px solid hsl(6, 70%, 34%)
+}
+
+.delete button{
+    font-size: 15px;
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    border-bottom: 3px solid hsl(224, 28%, 35%);
+}
+
+.anotherTable{
+    margin-top: -15px;
+}
+
+.anotherTable button{
+    margin-top: -20px;
+    width: 10.35rem;
+}
