@@ -56,7 +56,6 @@ div.container {
     display: flex;
     border-radius: 7px;
     overflow: hidden;
-    background-color: cyan;
 }
 
 div.cards{
@@ -93,4 +92,128 @@ div.third-card{
 
 .third-card button{
     color: hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px){
+
+    div.container{
+        width: 505px;
+        margin-left: 5px;
+        height: 320px;
+        margin-top: 20%;
+    }
+
+    div.first-card{
+        width: 170px;
+        margin-top: -15px;
+    }
+
+    div.second-card{
+        width: 170px;
+        margin-top: -15px;
+    }
+
+    div.third-card{
+        width: 170px;
+        margin-top: -15px;
+    }
+
+    h2{
+        top:10px;
+    }
+
+    p{
+        margin-right: -10px;
+        top:25px;
+    }
+
+    .first-card button{
+        position: relative;
+        top:70px;
+        width: 85px;
+        height: 27px;
+    }
+    
+    .second-card button{
+        position: relative;
+        top:70px;
+        width: 85px;
+        height: 27px;
+    }
+
+    .third-card button{
+        position: relative;
+        top:70px;
+        width: 85px;
+        height: 27px;
+    }
+
+    @media screen and (min-width: 375px) and (max-width: 500px){
+
+        div.container{
+            display: flex;
+            justify-content: center;
+            margin-top: auto;
+            margin-bottom: auto;
+            position: relative;
+            top: -30px;
+            width: 180px;
+            height: 800px;
+        }
+
+        div.cards{
+            display: grid;
+            grid-template-rows: auto;
+        }
+        
+
+        div.first-card{
+            width: 180px;
+            position: relative;
+            top: 5px;
+        }
+        
+        div.second-card{
+            width: 180px;
+            position: relative;
+        }
+        
+        div.third-card{
+            width: 180px;
+            position: relative;
+        }
+
+        img{
+            width: 35px;
+        }
+
+        p{
+            margin-top: -8px;
+            margin-right: -17px;
+            padding-right: 11px;
+            font-size: 8px;
+        }
+
+        .first-card button{
+            position: relative;
+            top:43px;
+            width: 85px;
+            height: 27px;
+        }
+        
+        .second-card button{
+            position: relative;
+            top:46px;
+            width: 85px;
+            height: 27px;
+        }
+        
+        .third-card button{
+            position: relative;
+            top:60px;
+            width: 85px;
+            height: 27px;
+        }
+    }
+
 }
