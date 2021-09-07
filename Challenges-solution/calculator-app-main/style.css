@@ -108,8 +108,9 @@ button{
     font-size: 1.5rem;
     font-weight: bold;
     background-color: hsl(0, 0, 100%);
-    border-bottom: 3px solid hsl(0, 0%, 49%);
+    border-bottom: 3.5px solid hsl(0, 0%, 49%);
     color: hsl(221, 14%, 31%);
+    cursor: pointer;
 }
 
 .resetScreen button{
@@ -118,7 +119,7 @@ button{
     background-color: hsl(225, 21%, 49%);
     color: white;
     font-size: 15px;
-    border-bottom: 3px solid hsl(224, 28%, 35%);
+    border-bottom: 3.5px solid hsl(224, 28%, 35%);
     
 }
 .equalButton button{
@@ -127,14 +128,14 @@ button{
     border-radius: 5px;
     color: white;
     background-color: rgb(209, 63, 48);
-    border-bottom: 3px solid hsl(6, 70%, 34%)
+    border-bottom: 3.5px solid hsl(6, 70%, 34%)
 }
 
 .delete button{
     font-size: 15px;
     background-color: hsl(225, 21%, 49%);
     color: white;
-    border-bottom: 3px solid hsl(224, 28%, 35%);
+    border-bottom: 3.5px solid hsl(224, 28%, 35%);
 }
 
 .anotherTable{
@@ -144,4 +145,43 @@ button{
 .anotherTable button{
     margin-top: -20px;
     width: 10.35rem;
+}
+
+
+@media screen and (max-width:660px) {
+    body{
+        margin-top:20%;
+    }
+    button{
+        width:55px;
+        height: 55px;
+    }
+    table{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .resetScreen button ,.equalButton button{
+        width: 125px;
+    }
+    td{
+        padding: 6px;
+    }
+    input{
+        width:19.6rem;
+        margin-left: -10px;
+    }
+    .main{
+        padding: 0;
+        width: 19rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .theme{
+        margin-left: -80px;
+    }
+    .theme p{
+        position: relative;
+        left: 10px;
+    }
 }
