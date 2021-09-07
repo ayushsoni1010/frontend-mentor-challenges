@@ -1,0 +1,49 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+}
+
+.container .left{
+    width: 25rem;
+    height: 35rem;
+    background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    position: relative;
+    left:-50px;
+    border-bottom-left-radius:200px;
+    border-bottom-right-radius:200px;
+}
+
+.container .right{
+    width: 25rem;
+    height: 35rem;
+    background:hsl(270, 20%, 96%);
+    position: relative;
+    right: -50rem;
+    bottom: -10rem;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.mobile{
+    width:13.5rem;
+    height:25rem;
+    background: red;
+    border-radius:20px;
+    position: absolute;
+    left:18rem;
+    top:10rem;
+}
