@@ -1,45 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
     <title>Frontend Mentor | [Challenge Name Here]</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
     </style>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
+  <body>
     <div class="container">
-        <div class="left"></div>
-        <div class="right"></div>
+      <div class="left"></div>
+      <div class="right"></div>
 
-        <div class="mobile"></div>
+      <div class="mobile">
+        <div class="upper-border"></div>
+
+        <div class="inner-body">
+          <div class="upper-profile">
+            <img
+              src="./images/arrow_back_ios_white_24dp.svg"
+              alt="arror"
+              class="arrow-icon"
+            />
+            <img src="./images/avatar.jpg" alt="avatar" class="avatar" />
+            <div class="info">
+              <h1>Samuel Green</h1>
+              <p>Available to Walk</p>
+            </div>
+            <img
+              src="./images/./more_vert_white_24dp.svg"
+              alt="List"
+              class="sidebar"
+            />
+          </div>
+
+          <div class="chat-body">
+            <p class="left-chat-para-first">
+              That sounds great. I'd be happy with that.
+            </p>
+            <p class="left-chat-para-second">
+              Could you send over some pictures of your dog, please?
+            </p>
+
+            <div class="right-chat-body">
+              <div class="dog-images">
+                <img src="./images/dog-image-1.jpg" alt="Dog" />
+                <img src="./images/dog-image-2.jpg" alt="Dog" />
+                <img src="./images/dog-image-3.jpg" alt="Dog" />
+              </div>
+
+              <p class="right-chat-para-first">Here are a few pictures. She's a happy girl!</p>
+              <p class="right-chat-para-second">Can you make it?</p>
+            </div>
+
+            <div>
+              <p class="left-bottom-chat">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+
+              <div class="chat-btn">
+                <button class="btn-first">30 minute walk <span>$29</span></button>
+                <button class="btn-second">1 hour walk <span>$49</span></button>
+              </div>
+            </div>
+
+            <!-- <div class="bottom-chat-">
+              <input type="text" placeholder="Type a message..." />
+              <img src="./images/icons8-filled-circle-90.png" alt="" />
+              <img src="./images/icons8-collapse-arrow-100.png" alt="" />
+            </div>  -->
+          </div>
+        </div>
+      </div>
     </div>
-     <!-- Samuel Green Available to Walk That sounds great. I’d be happy with that. Could you send over some pictures of your dog, please? Here are a few pictures. She’s a happy girl! Can you make it? She looks so happy! The time we discussed works. How
+    <!-- Samuel Green Available to Walk That sounds great. I’d be happy with that. Could you send over some pictures of your dog, please? Here are a few pictures. She’s a happy girl! Can you make it? She looks so happy! The time we discussed works. How
         long shall I take her out for? 30 minute walk $29 1 hour walk $49 Type a message… Simple booking Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed
         you can rate your walker and book again all through the chat. -->
 
-        <!-- <div class="attribution">
+    <!-- <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
     </div> -->
-</body>
-
+  </body>
 </html>

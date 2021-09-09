@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
 *, *::after, *::before{
     padding: 0;
     margin: 0;
@@ -11,6 +13,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     display: flex;
     overflow: hidden;
+    font-family: 'Rubik';
 }
 
 .container{
@@ -39,11 +42,173 @@ body{
 }
 
 .mobile{
+    display: flex;
+    justify-content: center;
     width:13.5rem;
     height:25rem;
-    background: red;
+    background: grey;
     border-radius:20px;
     position: absolute;
     left:18rem;
     top:10rem;
+}
+
+.inner-body{
+    display: block;
+}
+
+.upper-border{
+    width: 100px;
+    height: 20px;
+    background: white;
+    z-index: 10;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.upper-profile{
+    display: flex;
+    position: relative;
+    width: 195px;
+    height: 60px;
+    top: 10px;
+    background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    border-radius: 15px 15px 5px 5px;
+    gap: 5px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.arrow-icon{
+    position: relative;
+    top: 5px;
+    height: 12px;
+}
+
+.avatar{
+    border-radius: 100px;
+    height: 25px;
+    border: 2px solid white;
+    position: relative;
+    left: -3px;
+}
+
+.upper-profile .info{
+    display: block;
+    font-size: 10px;
+}
+
+.info h1{
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+}
+
+.info p{
+    margin-top: 2px;
+    font-size: 8px;
+    color: rgb(197, 197, 197);
+}
+
+.sidebar{
+    height: 15px;
+    position: absolute;
+    top: 25px;
+    right: 3px;
+}
+
+.chat-body{
+    width: 195px;
+    height: 330px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+/* .left-chat-para{
+
+} */
+
+.left-chat-para-first,.left-chat-para-second{
+    width: 117px;
+    height: 30px;
+    background:red;
+    position: relative;
+    top: 25px;
+    left: 7px;
+    font-size: 8px;
+    padding: 5px; 
+    border-radius: 8px 8px 8px 3px;
+}
+
+.left-chat-para-second{
+    margin-top: 7px;
+}
+
+.right-chat-body{
+    margin-top: 35px;
+    position: relative;
+}
+
+.dog-images {
+    display: flex;
+    height: 35px;
+    gap: 7px;
+    position: absolute;
+    right: 7px;
+}
+
+.dog-images img{
+    border-radius: 8px;
+}
+
+.right-chat-para-first, .right-chat-para-second{
+    width: 122px;
+    height: 30px;
+    background:red;
+    position: absolute;
+    top: 43px;
+    right: 7px;
+    font-size: 8px;
+    padding: 6px; 
+    border-radius: 8px 8px 3px 8px;
+}
+
+.right-chat-para-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    text-align: right;
+    width: 80px;
+    height: 25px;
+}
+
+.left-bottom-chat{
+    position: relative;
+    margin-top: 9.5rem;
+}
+
+.left-bottom-chat{
+    width: 120px;
+    height: 38px;
+    background: yellow;
+    font-size: 8px;
+    padding: 5px;
+    position: relative;
+    left: 7px;
+    border-radius: 8px 8px 8px 3px;
+}
+
+.chat-btn{
+   width: 120px; 
+   height: 30px;
+}
+
+.btn-first{
+   background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+}
+
+.btn-second{
+   background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
 }
