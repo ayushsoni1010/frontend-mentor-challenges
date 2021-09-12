@@ -10,10 +10,11 @@
 body{
     margin-left: auto;
     margin-right: auto;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(270, 20%, 96%);
     display: flex;
     overflow: hidden;
     font-family: 'Rubik';
+    font-size: 16px;
 }
 
 .container{
@@ -23,7 +24,7 @@ body{
 .container .left{
     width: 25rem;
     height: 35rem;
-    background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    background: linear-gradient(200deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
     position: relative;
     left:-50px;
     border-bottom-left-radius:200px;
@@ -33,28 +34,60 @@ body{
 .container .right{
     width: 25rem;
     height: 35rem;
-    background:hsl(270, 20%, 96%);
+    background:hsl(0, 0%, 92%);
     position: relative;
-    right: -50rem;
+    right: -55rem;
     bottom: -10rem;
     border-top-left-radius: 200px;
     border-top-right-radius: 200px;
 }
 
+.chat-mobile-app{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.chat-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 5%;
+}
+
+.chat-content .main-heading{
+    color: hsl(271, 36%, 24%);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.chat-content .chat-paragraph-app{
+    margin-top: 25px;
+    font-size: 13px;
+    color: hsl(206, 6%, 60%);
+    margin-right: 480px;
+    line-height: 1.8;
+}
+
 .mobile{
     display: flex;
     justify-content: center;
-    width:13.5rem;
-    height:25rem;
-    background: grey;
+    width:14rem;
+    height:27rem;
+    background: hsl(0, 0%, 100%);
     border-radius:20px;
     position: absolute;
     left:18rem;
-    top:10rem;
+    top:7rem;
+    box-shadow:  0px 5px 1px hsl(0, 0%, 90%),
+    5px 15px 10px hsl(0, 0%, 90%);
 }
 
 .inner-body{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .upper-border{
@@ -64,15 +97,16 @@ body{
     z-index: 10;
     position: absolute;
     border-radius: 20px;
+    margin-top: 2px;
 }
 
 .upper-profile{
     display: flex;
     position: relative;
-    width: 195px;
+    width: 205px;
     height: 60px;
     top: 10px;
-    background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    background: linear-gradient(220deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
     border-radius: 15px 15px 5px 5px;
     gap: 5px;
     padding-top: 20px;
@@ -83,6 +117,7 @@ body{
     position: relative;
     top: 5px;
     height: 12px;
+    cursor: pointer;
 }
 
 .avatar{
@@ -102,12 +137,13 @@ body{
     font-size: 13px;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .info p{
     margin-top: 2px;
     font-size: 8px;
-    color: rgb(197, 197, 197);
+    color: hsl(276, 100%, 81%);
 }
 
 .sidebar{
@@ -115,43 +151,43 @@ body{
     position: absolute;
     top: 25px;
     right: 3px;
+    cursor: pointer;
 }
 
 .chat-body{
-    width: 195px;
-    height: 330px;
-    border-radius: 10px;
-    background-color: green;
+    width: 205px;
+    height: 365px;
+    margin-top: -2px;
+    border-radius: 15px;
+    background-color: hsl(270,20%,96%);
 }
 
-/* .left-chat-para{
-
-} */
 
 .left-chat-para-first,.left-chat-para-second{
     width: 117px;
     height: 30px;
-    background:red;
+    background:hsl(0, 0%, 87%);
     position: relative;
-    top: 25px;
+    top: 20px;
     left: 7px;
     font-size: 8px;
-    padding: 5px; 
+    padding: 5px;
     border-radius: 8px 8px 8px 3px;
+    color: hsl(276, 55%, 52%);
 }
 
 .left-chat-para-second{
-    margin-top: 7px;
+    margin-top: 6px;
 }
 
 .right-chat-body{
-    margin-top: 35px;
+    margin-top: 30px;
     position: relative;
 }
 
 .dog-images {
     display: flex;
-    height: 35px;
+    height: 38px;
     gap: 7px;
     position: absolute;
     right: 7px;
@@ -159,18 +195,22 @@ body{
 
 .dog-images img{
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .right-chat-para-first, .right-chat-para-second{
     width: 122px;
     height: 30px;
-    background:red;
+    background:hsl(0, 0%, 100%);
+    box-shadow:  -1px 1px 2px hsl(0, 0%, 90%),
+    1px 1px 2px hsl(0, 0%, 100%);
     position: absolute;
-    top: 43px;
+    top:45px;
     right: 7px;
     font-size: 8px;
-    padding: 6px; 
+    padding: 6px;
     border-radius: 8px 8px 3px 8px;
+    color: hsl(271, 15%, 43%);
 }
 
 .right-chat-para-second{
@@ -178,7 +218,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 80px;
+    top: 82px;
     text-align: right;
     width: 80px;
     height: 25px;
@@ -186,29 +226,135 @@ body{
 
 .left-bottom-chat{
     position: relative;
-    margin-top: 9.5rem;
+    margin-top: 9.2rem;
 }
 
 .left-bottom-chat{
     width: 120px;
     height: 38px;
-    background: yellow;
+    background: hsl(0, 0%, 87%);
     font-size: 8px;
     padding: 5px;
     position: relative;
     left: 7px;
     border-radius: 8px 8px 8px 3px;
+    color: hsl(276, 55%, 52%);
 }
 
 .chat-btn{
-   width: 120px; 
-   height: 30px;
+   position: relative;
+   left: 7px;
+}
+
+.chat-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-btn span{
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    right: 15px;
+    color: white;
+}
+
+.chat-btn img{
+    width: 15px;
+    position: absolute;
+    left: 7px;
+    opacity: 0.2;
+}
+
+.btn-first ,.btn-second{
+    background: linear-gradient(120deg,hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    font-size: 8px;
+    margin-top: 7px;
+    border: none;
+    width: 135px;
+    height: 27px;
+    padding: 5px;
+    border-radius: 8px 8px 8px 3px;
+    color: rgb(231, 231, 231);
+    margin-left: -5px;
+    cursor: pointer;
+    position: relative;
+    left: 7px;
 }
 
 .btn-first{
-   background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    padding-right: 30px;
 }
 
 .btn-second{
-   background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    padding-right: 40px;
+}
+
+.bottom-chat{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-chat input{
+    width: 188px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    position: absolute;
+    left: 18px;
+    bottom: 15px;
+    font-size: 9px;
+    color: hsl(206, 6%, 79%);
+    box-shadow:  1px 1px 2px hsl(0, 0%, 90%),
+    1px 1px 2px hsl(0, 0%, 100%);
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.bottom-chat img{
+    width: 30px;
+    position: absolute;
+    right: 20px;
+    bottom: 16px;
+    cursor: pointer;
+}
+
+.arrow-bottom-chat{
+    width: 15px !important;
+    margin-bottom: 7px;
+    margin-right: 6px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:600px){
+    .mobile{
+        margin-left:-180px;
+        margin-top: -75px;
+    }
+    .left{
+        margin-top: -120px;
+        margin-left: -125px;
+    }
+    .chat-mobile-app{
+        display: flex;
+        flex-direction: column;
+    }
+    .chat-content{
+        position: absolute;
+        left: 13rem;
+        top: 29.5rem;
+    }
+    .chat-paragraph-app{
+        text-align: center;
+        margin-top:5px !important;
+        margin-right: 160px !important;
+        margin-left: -15px;
+    }
 }
