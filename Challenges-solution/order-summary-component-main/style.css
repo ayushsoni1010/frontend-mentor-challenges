@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display';
+}
+
+div.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.container .bg-image {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+div.app-component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8%;
+}
+
+div.app-component div.card-component {
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20rem;
+  height: 30rem;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 50px #ccc;
+          box-shadow: 0px 0px 50px #ccc;
+}
+
+div.app-component div.card-component .illustration-hero {
+  width: 320px;
+  position: relative;
+  top: -105px;
+}
+
+.card-content-summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-content-summary h3 {
+  color: #1f2f56;
+  font-weight: 900;
+  margin-top: -75px;
+}
+
+.card-content-summary p {
+  font-size: 12px;
+  position: relative;
+  top: 15px;
+  color: #7280a7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.card-plans-summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  background-color: #f5f7ff;
+  font-family: 'Red Hat Display';
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
+}
+
+.card-plans-summary img {
+  width: 35px;
+}
+
+.card-plans-summary .change-button {
+  margin-left: 25px;
+  text-decoration: underline;
+  font-family: 'Red Hat Display';
+  background: none;
+  border: none;
+  font-size: 11px;
+  color: #3829e0;
+  font-weight: 700;
+}
+
+.card-plans-summary .change-button:hover {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.card-plans-summary .inner-plans-content p {
+  font-size: 13px;
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+.card-plans-summary .inner-plans-content span {
+  font-size: 12px;
+  color: #1f2f56;
+}
+
+.proceed-button {
+  color: white;
+  font-weight: 600;
+  position: relative;
+  top: 50px;
+  border: none;
+  padding: 10px;
+  width: 15rem;
+  border-radius: 10px;
+  background-color: #3829e0;
+  -webkit-box-shadow: 0px 0px 50px #ccc;
+          box-shadow: 0px 0px 50px #ccc;
+  font-family: 'Red Hat Display';
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.proceed-button:hover {
+  opacity: 0.8;
+  font-weight: 700;
+}
+
+.cancel-order-button {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 12px;
+  position: relative;
+  top: 65px;
+  color: #7280a7;
+  font-family: 'Red Hat Display';
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.cancel-order-button:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
