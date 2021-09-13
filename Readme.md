@@ -19,5 +19,23 @@ Up above you can review my solutions for each challenge in their respective fold
 ---
 
 # Project Links
-- [3-column-preview-card-component-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/3-column-preview-card-component-main/index.html/) 
+- [3-column-preview-card-component-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/3-column-preview-card-component-main/) 
+- [order-summary-component-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/order-summary-component-main/)
+- [calculator-app-main/](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/calculator-app-main/)
+- [chat-app-css-illustration-master](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/chat-app-css-illustration-master/)
+- [stats-preview-card-component-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/stats-preview-card-component-main/)
+- [fylo-dark-theme-landing-page-master](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/fylo-dark-theme-landing-page-master/)
+- [huddle-landing-page-with-curved-sections-master](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/huddle-landing-page-with-curved-sections-master/)
+- [single-price-grid-component-master](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/single-price-grid-component-master/)
+- [fylo-data-storage-component-master](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/fylo-data-storage-component-master/)
+- [testimonials-grid-section-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/testimonials-grid-section-main/)
+- [social-proof-section-master](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/social-proof-section-master/)
+- [sunnyside-agency-landing-page-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/sunnyside-agency-landing-page-main/)
+- [loopstudios-landing-page-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/loopstudios-landing-page-main/)
+- [time-tracking-dashboard-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/time-tracking-dashboard-main/)
+- [huddle-landing-page-with-single-introductory-section-master](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/huddle-landing-page-with-single-introductory-section-master/)
+- [four-card-feature-section-master](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/four-card-feature-section-master/)
+- [tip-calculator-app-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/tip-calculator-app-main/)
+- [crowdfunding-product-page-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/crowdfunding-product-page-main/)
+- [blogr-landing-page-main](https://ayushsoni1010.github.io/frontend-mentor-challenges/Challenges-solution/blogr-landing-page-main/)
 
