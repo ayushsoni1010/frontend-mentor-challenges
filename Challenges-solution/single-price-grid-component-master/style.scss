@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Karla',sans-serif;
+}
+
+div.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+    
+
+    > div.community-app{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 40rem;
+        height: 29rem;
+        box-shadow: 0px 0px 50px #ccc;
+        overflow: hidden;
+
+        > div.upper-join-community{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 8%;
+            background-color: white;
+
+            > h2{
+                color: hsl(179, 62%, 43%);
+            }
+            > h3{
+                margin-top: 20px;
+                color: hsl(71, 73%, 54%);
+            }
+            > p{
+                margin-top: 10px;
+                color: hsl(0, 0%, 57%);
+            }
+        }
+        > div.bottom-component{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            > div.left-monthly-plan-community{
+                display: flex;
+                flex-direction: column;
+                padding: 5%;
+                width: 50rem;
+                background: hsl(179, 62%, 43%);
+                color: white;
+                > p.content{
+                    margin-top: 15px;
+                    font-size: 40px;
+                    font-weight: 700;
+                    
+                    > span{
+                        margin-left: 10px;
+                        font-size: 16px;
+                        font-weight: normal;
+                        color: hsl(0, 0%,90%);
+                    }
+                }
+                > p.next-content{
+                    font-size: 17px;
+                    color:hsl(0,0,95%);
+                    margin-top: 5px;
+                }
+                > button{
+                    margin-top: 30px;
+                    height: 45px;
+                    border-radius: 7px;
+                    color: white;
+                    background-color: hsl(71, 73%, 54%);
+                    cursor: pointer;
+                    box-shadow: 0px 0px 5px rgb(163, 163, 163);
+                    border: 2px solid hsl(179, 63%, 38%);
+                }
+            }
+            > div.right-why-us-community{
+                display: flex;
+                flex-direction: column;
+                padding: 5%;
+                width: 50rem;
+                background: hsl(179, 62%, 47%);
+                color: white;
+                > div.content{
+                    margin-top: 20px;
+                    color:hsl(0,0,87%);
+                    font-size: 15px;
+                    line-height: 1.25;
+                }
+            }
+
+        }
+    }
+}
