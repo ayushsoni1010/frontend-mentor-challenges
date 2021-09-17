@@ -1,4 +1,4 @@
-# Frontend Mentor Challenges
+# Frontend Mentor Projects
 
 This are the frontend challenges which contains many project solutions of frontend mentor challenges
 
