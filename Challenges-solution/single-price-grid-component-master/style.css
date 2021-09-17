@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Karla',sans-serif;
+}
+
+div.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e5eff5;
+  height: 100vh;
+}
+
+div.container > div.community-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 40rem;
+  height: 29rem;
+  -webkit-box-shadow: 0px 0px 50px #ccc;
+          box-shadow: 0px 0px 50px #ccc;
+  overflow: hidden;
+}
+
+div.container > div.community-app > div.upper-join-community {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 8%;
+  background-color: white;
+}
+
+div.container > div.community-app > div.upper-join-community > h2 {
+  color: #2ab2af;
+}
+
+div.container > div.community-app > div.upper-join-community > h3 {
+  margin-top: 20px;
+  color: #c0df34;
+}
+
+div.container > div.community-app > div.upper-join-community > p {
+  margin-top: 10px;
+  color: #919191;
+}
+
+div.container > div.community-app > div.bottom-component {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.container > div.community-app > div.bottom-component > div.left-monthly-plan-community {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5%;
+  width: 50rem;
+  background: #2ab2af;
+  color: white;
+}
+
+div.container > div.community-app > div.bottom-component > div.left-monthly-plan-community > p.content {
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+div.container > div.community-app > div.bottom-component > div.left-monthly-plan-community > p.content > span {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #e6e6e6;
+}
+
+div.container > div.community-app > div.bottom-component > div.left-monthly-plan-community > p.next-content {
+  font-size: 17px;
+  color: #f2f2f2;
+  margin-top: 5px;
+}
+
+div.container > div.community-app > div.bottom-component > div.left-monthly-plan-community > button {
+  margin-top: 30px;
+  height: 45px;
+  border-radius: 7px;
+  color: white;
+  background-color: #c0df34;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 5px #a3a3a3;
+          box-shadow: 0px 0px 5px #a3a3a3;
+  border: 2px solid #249e9c;
+}
+
+div.container > div.community-app > div.bottom-component > div.right-why-us-community {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5%;
+  width: 50rem;
+  background: #2ec2c0;
+  color: white;
+}
+
+div.container > div.community-app > div.bottom-component > div.right-why-us-community > div.content {
+  margin-top: 20px;
+  color: #dedede;
+  font-size: 15px;
+  line-height: 1.25;
+}
+/*# sourceMappingURL=style.css.map */
