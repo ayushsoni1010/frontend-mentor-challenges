@@ -21,6 +21,11 @@ module.exports = {
         veryLightGray: "hsl(0, 0%, 98%)",
       },
     },
+    spacing: {
+      1: "8px",
+      2: "12px",
+      3: "16px",
+    },
   },
   plugins: [],
 };
