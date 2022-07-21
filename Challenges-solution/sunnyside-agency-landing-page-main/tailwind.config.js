@@ -13,7 +13,7 @@ module.exports = {
       colors: {
         // Primary
         softRed: "hsl(7, 99%, 70%)",
-        yellow: "hsl(51, 100%, 49%)",
+        softYellow: "hsl(51, 100%, 49%)",
         darkDesaturatedCyan: "hsl(167, 40%, 24%)",
         darkBlue: "hsl(198, 62%, 26%)",
         darkModerateCyan: "hsl(168, 34%, 41%)",
@@ -22,6 +22,9 @@ module.exports = {
         veryDarkGrayishBlue: "hsl(213, 9%, 39%)",
         grayishBlue: "hsl(210, 4%, 67%)",
         grayWhite: "hsl(0, 0%, 100%)",
+      },
+      backgroundImage: {
+        strawberry: "url('./images/image-photography.jpg')",
       },
       fontFamily: {
         Barlow: "Barlow",
